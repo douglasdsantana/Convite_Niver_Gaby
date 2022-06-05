@@ -9,4 +9,4 @@ O convidado irá receber o convite através de um link.
 <li>Cria-se um convite personalizado sem a necessidade de digitar o nome de cada convidado</li>
 </ul>
 
-O convite pode ser conferido <a href="https://holiv.github.io/convite-aniversario-js/">aqui</a>
+O convite pode ser conferido <a href="https://convite-niver-gaby.vercel.app/">aqui</a>
