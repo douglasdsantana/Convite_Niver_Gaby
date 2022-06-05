@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 12px;
+    font-family: 'Francois One', sans-serif;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background-image: url(https://1.bp.blogspot.com/-3GNokCehJ9I/YV2fenOfVlI/AAAAAAAADq0/FRnYzb2hgjISsQVo7W1UuWd09Mv5dZYlgCLcBGAsYHQ/s16000/round-6-papel_de_parede-1.png);
+    position: relative;
+}
+#container::after{
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    opacity: 0.3;
+}
+
+#card{
+    max-width: 370px;
+    width: 85vw;
+    height: 90vh;
+    min-height: 740px;
+    background-color: #F7CB9E;
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+#round6{
+    position: absolute;
+    top: 0;
+}
+#round6 img{
+    width: 100%;
+    filter: drop-shadow(5px 5px 3px #C11F54);
+}
+
+#logo{
+    margin-top: 70px;
+    font-size: 4rem;
+    color: #EFB935;
+    width: 90%;
+    height: 38%;
+    border-radius: 40% 60% 20% 80% / 77% 80% 20% 23%;
+    background-image: linear-gradient(90deg, #fb2323, #f71509bd);
+    box-shadow: 5px 5px 10px 1px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#gaby{
+    font-size: 5rem;
+    color: #e9d9eb;
+    border-bottom: 3px solid #EFB935;
+}
+#midle-message{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#midle-message div{
+    display: flex;
+    align-items: center;
+    background-image: url();
+    position: relative;
+    z-index: 1000;
+}
+#midle-message div::after{
+    content: '';
+    position: absolute;
+    background-color: #F7CB9E;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#midle-message div:first-child{
+    width: 100%;
+    height: 60%;
+    text-align: justify;
+}
+#midle-message div:nth-child(2){
+    width: 100%;
+    height: 30%;
+}
+#convidado{
+    color: #1FB3A5;
+    font-weight: bolder;
+}
+#idade{
+    display: flex;
+    justify-content: center;
+    
+}
+#idade p{
+    color: #a311dc;
+    filter: drop-shadow(3px 3px 2px #F04D1D);
+    font-size: 2.4rem;
+    line-height: 1.8rem;
+}
+#idade #gaby-2{
+    font-size: 2.5rem;
+    padding: 0 10px;
+    border-right: 2px solid #F04D1D;
+}
+
+#text{
+    font-size: 1.2rem;
+    color: #099f2c;
+    /*border-bottom: 1px solid #299DAF;*/
+    
+}
+#convite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 25%;
+    color: #F04D1D;
+}
+#convite p:nth-child(3){
+    text-align: center;
+}
+#bonequinho{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+#bonequinho img{
+    height: 100%;
+}
